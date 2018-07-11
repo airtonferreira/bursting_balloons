@@ -63,20 +63,14 @@
   /* Botão iniciar */
 
 .botaoiniciar{
-    background: url('imagens/iniciar.png');
+    background: url('imagens/iniciar.png') no-repeat;
     width: 90px;
     height: 89px;
-    
+    border: none;
 
 }
 
 .botaoiniciar:hover{
     background-image: url('imagens/iniciarPressionado.png');
-    width: 90px;
-    height: 89px;
     
-}
-
-.botaoiniciar:focus{
-    outline:0;
 }
